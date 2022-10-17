@@ -5,6 +5,15 @@ public class User {
 
     private String username;
     private String password;
+    private String gender;
+    
+    public String getGender(){
+        return gender;
+    }
+    
+    public void setGender(String gender){
+        this.gender=gender;
+    }
 
     public String getUsername() {
         return username;
